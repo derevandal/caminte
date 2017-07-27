@@ -1,0 +1,27 @@
+{
+  "name": "hunter-load-balancer",
+  "version": "0.0.0",
+  "description": "Load balancer icecast",
+  "main": "index.js",
+  "scripts": {
+    "run": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xgustavoh/hunter-load-balancer.git"
+  },
+  "author": "Gustavo Minari",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xgustavoh/hunter-load-balancer/issues"
+  },
+  "homepage": "https://github.com/xgustavoh/hunter-load-balancer#readme",
+  "dependencies": {
+    "arangojs": "^5.7.0",
+    "bunyan": "^1.8.10",
+    "caminte": "^0.4.0",
+    "querystring": "^0.2.0",
+    "restify": "^5.0.1",
+    "restify-plugins": "^1.6.0"
+  }
+}
