@@ -1,6 +1,8 @@
 const schema = require('../services/arangoService')
     , Yellow = schema.define('yellow', {
-        content:     { type: schema.Text }
+        serv : { type : schema.String }
+        , listeners : { type : schema.Int }
+        , mounts:     { type: schema.Json }
         , createAt: { type: schema.Date, default: Date.now }
     })
     
